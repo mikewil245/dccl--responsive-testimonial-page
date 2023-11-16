@@ -130,8 +130,8 @@ ul {
 }
 
 .container {
-    max-width: 1000px;
-  width: 90%;
+  
+  width: 85%;
   display: flex;
   gap: 6em;
   justify-content: center;
@@ -174,7 +174,7 @@ section {
     margin-right: 9em;
 }
 
-    @media(max-width: 800px) {
+    @media(max-width: 850px) {
         .container {
             width: 80%;
             display: flex;
