@@ -1,0 +1,201 @@
+:root {
+  --Sora: "Sora", sans-serif;
+  --Yellow: #f5c044;
+  --Green: #4ca154;
+  --Black: #18181b;
+  --Grey: #52525a;
+  --LightGrey: #d4d4d8;
+  --FirstWhite: #fafaf9;
+  --SecondWhite: #ffffff;
+  --HeadFontsize: 2.25rem;
+  --BodyFontSize: 1.25rem;
+  --BodyTwoFontSize: 1rem;
+  --ListFontSize: 0.875rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+  color: var(--Grey);
+}
+
+* Box sizing rules */ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Set body defaults */
+body {
+  line-height: 1.5;
+  background-color: #fafaf9;
+  font-weight: 400;
+  font-size: 1.25rem;
+
+  /* center demo content on the screen */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.check {
+  min-width: 1.5em;
+  filter: brightness(0) saturate(100%) invert(51%) sepia(49%) saturate(451%)
+    hue-rotate(75deg) brightness(96%) contrast(95%);
+}
+
+h1 {
+  font-family: var(--Sora);
+  font-size: var(--HeadFontsize);
+  margin-top: 0.4em;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-family: var(--Sora);
+  margin-top: 0.7em;
+}
+
+.right-side > p {
+  font-size: 1rem;
+}
+
+.all-list {
+  margin-top: 1em;
+}
+
+.list-p {
+  color: var(--Grey);
+  font-size: 0.875rem;
+  font-family: var(--Sora);
+}
+
+.main-p {
+  margin-top: 1em;
+  font-family: var(--Sora);
+}
+
+
+
+.star {
+  width: 3%;
+  padding: 0.2em;
+  border-radius: 50%;
+  border: 5px solid var(--Yellow);
+  filter: brightness(0) saturate(100%) invert(80%) sepia(84%) saturate(3808%)
+    hue-rotate(321deg) brightness(100%) contrast(91%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.yellow-star {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(70%) saturate(384%)
+    hue-rotate(3deg) brightness(102%) contrast(97%);
+}
+
+.four-star {
+  display: flex;
+  margin-left: 0.3em;
+  width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+  width: 90%;
+  display: flex;
+  gap: 6em;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    width: 80%;
+  background-color: #ffffff;
+  border-radius: 5%;
+ padding: 1em;
+}
+
+.firstboxp {
+  font-family: var(--Sora);
+  font-size: 0.875rem;
+  color: var(--Grey);
+  margin-top: 0.3em;
+}
+
+.google-flex {
+  display: flex;
+  width: 35%;
+}
+
+.first-box {
+  padding: 0.7em;
+}
+
+.wrapper {
+    margin-right: 5em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.margin-section{
+    margin-right: 9em;
+}
+
+    @media(max-width: 800px) {
+        .container {
+            width: 80%;
+            display: flex;
+          
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+            align-items: center;
+          }  
+
+          .margin-section{
+            margin-right: 0em;
+        }
+
+        .wrapper {
+            width: 90%;
+            margin-right: 2em;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1em;
+          flex-direction: column;
+        }
+    }
