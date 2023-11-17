@@ -131,7 +131,7 @@ ul {
 
 .container {
   
-  width: 85%;
+  width: 80%;
   display: flex;
   gap: 6em;
   justify-content: center;
@@ -139,7 +139,7 @@ ul {
 }
 
 section {
-    width: 80%;
+    width: 90%;
   background-color: #ffffff;
   border-radius: 5%;
  padding: 1em;
@@ -158,10 +158,12 @@ section {
 }
 
 .first-box {
+  
   padding: 0.7em;
 }
 
 .wrapper {
+    
     margin-right: 5em;
   display:flex;
   justify-content: center;
@@ -174,7 +176,7 @@ section {
     margin-right: 9em;
 }
 
-    @media(max-width: 850px) {
+    @media(max-width: 1000px) {
         .container {
             width: 80%;
             display: flex;
@@ -185,17 +187,27 @@ section {
             align-items: center;
           }  
 
+          .left-side {
+            max-width: 500px;
+          }
+
           .margin-section{
             margin-right: 0em;
         }
 
         .wrapper {
-            width: 90%;
+            width: 65%;
+           
             margin-right: 2em;
           display:flex;
+          flex-grow: 0;
           justify-content: center;
           align-items: center;
           gap: 1em;
           flex-direction: column;
+        }
+
+        .movefirstbox{
+            margin-left: 9em;
         }
     }
