@@ -163,7 +163,7 @@ section {
 }
 
 .wrapper {
-    
+    width: 80%;
     margin-right: 5em;
   display:flex;
   justify-content: center;
@@ -196,11 +196,11 @@ section {
         }
 
         .wrapper {
-            width: 65%;
+            width: 55%;
            
             margin-right: 2em;
           display:flex;
-          flex-grow: 0;
+          
           justify-content: center;
           align-items: center;
           gap: 1em;
