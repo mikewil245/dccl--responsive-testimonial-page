@@ -163,7 +163,8 @@ section {
 }
 
 .wrapper {
-    width: 80%;
+    
+    
     margin-right: 5em;
   display:flex;
   justify-content: center;
@@ -175,6 +176,8 @@ section {
 .margin-section{
     margin-right: 9em;
 }
+
+
 
     @media(max-width: 1000px) {
         .container {
@@ -196,18 +199,19 @@ section {
         }
 
         .wrapper {
-            width: 55%;
-           
-            margin-right: 2em;
+            width: 80%;
+           margin-right: 2em;
           display:flex;
-          
-          justify-content: center;
+           justify-content: center;
           align-items: center;
           gap: 1em;
           flex-direction: column;
         }
 
         .movefirstbox{
+           
             margin-left: 9em;
         }
+
+        
     }
