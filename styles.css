@@ -16,8 +16,7 @@
 .flex {
   display: flex;
   align-items: center;
-
-  color: var(--Grey);
+ color: var(--Grey);
 }
 
 * Box sizing rules */ *,
@@ -130,7 +129,6 @@ ul {
 }
 
 .container {
-  
   width: 80%;
   display: flex;
   gap: 6em;
@@ -158,13 +156,11 @@ section {
 }
 
 .first-box {
-  
   padding: 0.7em;
 }
 
 .wrapper {
-    
-margin-right: 5em;
+  margin-right: 5em;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -174,6 +170,11 @@ margin-right: 5em;
 
 .margin-section{
     margin-right: 9em;
+}
+
+.content{
+ width: 85%;
+  
 }
 
 
@@ -197,8 +198,8 @@ margin-right: 5em;
         }
 
         .wrapper {
-            width: 80%;
-           margin-right: 2em;
+           width: 90%;
+           margin-right: 0em;
           display:flex;
            justify-content: center;
           align-items: center;
@@ -207,9 +208,20 @@ margin-right: 5em;
         }
 
         .movefirstbox{
-           
-            margin-left: 9em;
+          
+           margin-left: 4em;
         }
+
+        .content{
+          width: 80%;
+        
+        }
+
+        .google-flex {
+          width: 50%;
+        }
+
+        
 
         
     }
